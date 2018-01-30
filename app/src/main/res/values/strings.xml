@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Numbers</string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="text1">\"Read Interesting Facts About\"\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Numbers</string>
+    <string name="text2">\"Go For Random Facts As Per\"\n \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Your Desired Category</string>
+    <string name="text3">\"Or Choose Specific Facts Based\"\n \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0On Your Provided Input</string>
+    <string name="text4">\"Listen To The Facts Or Save\"\n \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Them As Favorites</string>
+
+</resources>

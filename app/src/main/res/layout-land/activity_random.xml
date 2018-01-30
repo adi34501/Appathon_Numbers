@@ -1,0 +1,78 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.Random">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#3BA3FF"
+        android:elevation="2dp"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textString2"
+                android:textColor="#111"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textString"
+        android:layout_below="@+id/toolbar"
+        android:textColor="#111"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="85dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/button_round"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/ic_volume_up_black_24dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/textString"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+
+
+
+</ScrollView>

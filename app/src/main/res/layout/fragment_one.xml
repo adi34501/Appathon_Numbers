@@ -1,0 +1,114 @@
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:tag="cards main container"
+    android:baselineAligned="true">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="20dp"
+        card_view:cardBackgroundColor="@android:color/holo_purple"
+        card_view:cardUseCompatPadding="false"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/card_view2">
+
+
+
+        <TextView
+            android:id="@+id/textViewName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="Trivia"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="48dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view3"
+        card_view:cardBackgroundColor="@android:color/holo_red_light"
+        card_view:cardElevation="18dp"
+        card_view:cardUseCompatPadding="false"
+        >
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="Math"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="48dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view4"
+        card_view:cardBackgroundColor="@android:color/holo_green_light"
+        card_view:cardElevation="16dp"
+        card_view:cardUseCompatPadding="false"
+        >
+
+        <TextView
+            android:id="@+id/textViewName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="48dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view4"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/holo_blue_light"
+        card_view:cardUseCompatPadding="false"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textViewName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="Year"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="48dp" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
